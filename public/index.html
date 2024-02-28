@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hubspot Apis</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+  </head>
+  <body>
+    <h1>Hubspot Apis</h1>
+
+    <div class="row-1">
+      <div class="add-contact">
+        <h2>Inserisci un contatto</h2>
+        <form id="contactForm" action="#">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required><br><br>
+            
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required><br><br>
+            
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+      </div>
+      <div class="add-company">
+        <h2>Inserisci un'azienda</h2>
+        <form id="companyForm" action="#">
+            <label for="domain">Domain Name:</label><br>
+            <input type="url" id="domain" name="domain" required><br><br>
+            
+            <label for="name">Company Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+      </div>
+    </div>
+
+    <div class="row-2">
+      <div class="list">
+        <h2>Lista contatti</h2>
+        <button id="showContacts">Show</button>
+        <div id="contactsList"></div>
+      </div>
+      <div class="list">
+        <h2>Lista aziende</h2>
+        <button id="showCompanies">Show</button>
+        <div id="companiesList"></div>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
