@@ -1,0 +1,15 @@
+defaultPortal: nome-azienda
+portals:
+  - name: nome-azienda
+    portalId: 144243096
+    env: prod
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          COuGjKPfMRIRAA0AQAAA4C0DQAJYAgEAAMgYmPPjRCDSvs0eKO7pDDIUZ5UKW0I4OzzIquVcBjWThnGFJhQ6QQAABEEAAAB4AAAAAAAAAAAAgAAAAAAABAAAwAcAjvAxPGAQBgBEAGBA_BgGABAgAwAAAAAAPAIDAAAAAAAAAAwEQhTjssZlW7uIet-ubVt226hc8kQ03koDZXUxUgBaAA
+        expiresAt: '2024-02-29T10:22:26.178Z'
+    accountType: STANDARD
+    personalAccessKey: >-
+      CiRldTEtNmNjMi01NDkxLTQ4OTItYmI0My0yYTc3OWRlNDQ5Y2IQmPPjRBjSvs0eKhkABeaRgoz19Zdp1dicJzG1cEJzZypQxGDOSgNldTE
+    sandboxAccountType: null
